@@ -25,6 +25,7 @@ describe('index.js', function () {
       expect(mostProfitableNeighborhood).to.equal('Chelsea');
     });
 
+
     it('does not raise error if the mostProfitableNeighborhood is changed', function () {
       expect(function () { mostProfitableNeighborhood = 'Upper West Side' }).to.not.throw(TypeError);
     });
